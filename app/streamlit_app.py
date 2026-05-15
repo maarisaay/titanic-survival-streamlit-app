@@ -9,10 +9,10 @@ st.write(
     "na podstawie danych takich jak wiek, płeć, klasa biletu i opłata."
 )
 
-with open("../models/titanic_model.pkl", "rb") as file:
+with open("models/titanic_model.pkl", "rb") as file:
     model = pickle.load(file)
 
-with open("../models/model_columns.pkl", "rb") as file:
+with open("models/model_columns.pkl", "rb") as file:
     model_columns = pickle.load(file)
 
 st.header("Dane pasażera")
