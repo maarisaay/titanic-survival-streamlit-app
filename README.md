@@ -4,6 +4,10 @@ A Streamlit web application that predicts whether a Titanic passenger would surv
 
 The prediction is generated using a logistic regression model trained on the Titanic dataset.
 
+## Streamlit App
+
+https://titanic-survival-app-app-liagvzzumgz3dxtur9fugj.streamlit.app/
+
 ## Features
 - Titanic survival prediction
 - Survival probability estimation
